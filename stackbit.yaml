@@ -614,8 +614,10 @@ models:
         description: Repeat the image to cover the whole area
       - name: ''
         type: string
+        label: ''
       - name: ''
         type: string
+        label: ''
   features_section:
     type: object
     label: Features section
