@@ -612,6 +612,8 @@ models:
           - no-repeat
         default: no-repeat
         description: Repeat the image to cover the whole area
+      - name: ''
+        type: string
   features_section:
     type: object
     label: Features section
@@ -1060,6 +1062,7 @@ models:
         description: Repeat the image to cover the whole area
       - name: ''
         type: string
+        label: ''
   cta_section:
     type: object
     label: CTA section
